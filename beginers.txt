@@ -1,0 +1,36 @@
+/help => Para ver todos los comandos.
+
+SI QUEREMOS TENER EL ZUK AL DIA Y NO SABEMOS COMO LOS PASOS SON:
+
+1º DESBLOQUEAR BOOTLOADER:
+  -  Seguir tutorial de Mikonos: http://www.htcmania.com/showthread.php?t=1235767
+  -  Si tienes adb y fastboot instalado en linux los comandos funcionan igual
+  -  SI QUEREMOS RECIBIR OTAS NO ROOTEAR
+
+2º LIBRARNOS DE NUESTRA ROM FALSA O ANTIGUA FLASHEANDO CON QFILL:
+  -  Seguimos este tutorial de xda: https://forum.xda-developers.com/zuk-z2-pro/how-to/howto-flash-stock-rom-t3435109
+  -  Algunas personas tienen un problema (Sahara), en opciones de desarrollador activar la casilla de usb 2.0 y funcionara correctamente
+
+3º PARA ROOTEAR SEGUIR APARTADO DE INSTALAR SUPER SU DE MIKONOS: http://www.htcmania.com/showthread.php?t=1235767
+  -  Los comandos funcionan igual en Linux
+
+4º GOOGLE PLAY Y SERVICIOS DE GOOGLE
+  -  Descargar servicios de google y google play store desde App Centre
+
+5º CONTACTOS
+  -  Para tener todos nuestros contactos correctamente.
+  -  Descargamos google contact sync de aqui: http://www.apkmirror.com/apk/google-inc/google-contacts-sync/google-contacts-sync-6-0-1-release/google-contacts-sync-6-0-1-android-apk-download/
+  -  Una vez instalada en ajustes/cuentas y sincronizacion/otros/google te debería aparecer ahora la opcion de sincronizar los contactos.
+
+6º RECIBIR CORRECTAMENTE NOTIFICACIONES ANDROID WEAR, FLOATIFY...
+  -  Si utilizas algún servicio de notificaciones puede que pierdas la configuración al principio.
+  -  Para arreglar esto
+  -  Lo que hay que hacer es reestablecer el permiso para enviarte notificaciones.
+  -  Para ello vamos a ajustes/notificaciones/Acceso a notificaciones/ y ahi deshabilitamos el servicio que no funciona correctamente.
+  -  Reiniciamos nuestro dispositivo.
+  -  Una vez iniciado abrimos la aplicación, nos volverá a pedir reajustar el acceso a la notificaciones.
+  -  Lo habilitamos de nuevo y eso es todo.
+
+
+SI TENEIS OTRAS DUDAS PASAROS POR /faqs, A LO MEJOR TU DUDA YA ESTA RESUELTA
+SI NO ESCRIBEME UNA SUGERENCIA CON /sugerencia "Tu sugerencia"

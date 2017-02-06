@@ -1,0 +1,12 @@
+/help => Para ver todos los comandos.
+
+1º UTILIDADES
+	-  Flashtool (QPST 2.7.434) 
+		https://www.androidfilehost.com/?fid=24591000424948456 
+	-  Drivers USB (ZUK) 
+		https://www.androidfilehost.com/?fid=24659325368664618 
+	-  Drivers Qualcomm(normalmete se instala solo con QPST) 
+		https://www.androidfilehost.com/?fid=24591020540824824
+
+
+2º TOOL ALL IN ONE (Drivers|Unlock|TWRP|Factory Image|Stock Recovery) https://forum.xda-developers.com/zuk-z2-pro/development/tool-tool-one-driversunlocktwrpfactory-t3432782 

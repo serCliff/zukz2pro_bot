@@ -1,0 +1,16 @@
+COMANDOS:
+
+/inicio => Entra aqui si es tu primer día con el zuk
+
+/fotos => Para mostrar el album de fotos hechas con el zuk.
+
+/roms => Accede a todas las roms actuales.
+/gadgets => Carcasas, protectores de pantalla y otros objetos que compramos para nuestro zuk.
+/bootloader => Instrucciones para desbloquear bootloader.
+/tools => Herramientas útiles como qfill, drivers, Flashtool...
+/twrp => Último recovery actualizado.
+/emmaus => Material de emmaus (Roms Cyanogenmod y ResurrectionRemix. Recovery TWRP. Xposed).
+/faqs => Bricks, problemas, busca aqui tus dudas primero.
+/link => Link del grupo.
+
+/sugerencia => Si deseas añadir o cambiar algo este es el método.

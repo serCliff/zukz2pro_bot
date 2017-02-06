@@ -1,0 +1,3 @@
+/help => Para ver todos los comandos.
+
+Tutorial Mikonos: http://www.htcmania.com/showthread.php?t=1235767

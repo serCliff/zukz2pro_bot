@@ -1,0 +1,3 @@
+/help => Para ver todos los comandos.
+
+Material de emmaus (Roms Cyanogenmod y ResurrectionRemix. Recovery TWRP. Xposed): https://emmaus.pro/?dir=Zuk%20Z2%20Pro

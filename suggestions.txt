@@ -1,0 +1,5 @@
+-----------------------------
+CHAT TITLE: "" chat_id: 12109646
+From User:{'username': u'serCliff', 'first_name': u'Sergio', 'last_name': '', 'type': '', 'id': 12109646}
+
+Sugerencia: add https://goo.gl/photos/NFXPYs8wybG7pduPA 

@@ -1,0 +1,4 @@
+/help => Para ver todos los comandos.
+
+TWRP 3.0.3
+https://mega.nz/#!spJgGI6T!x87tQgLCVYGb18IdaC9KTV4p7vH75KoLBqNQY3nLhrI
