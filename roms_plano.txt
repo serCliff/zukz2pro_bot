@@ -1,0 +1,23 @@
+/help => Para ver todos los comandos.
+
+<a href="https://forum.xda-developers.com/zuk-z2-pro/development">ROMs para Z2 Pro (xda) </a>
+
+<a href="https://www.androidfilehost.com/?w=files&flid=150632">Zui 2.5 ( qfil )</a> 
+
+<a href="https://mega.nz/#!MghQBIZT!6wBQpRUL4z4-gtD1UUp2AHhFybPHsXM5XWl0i8TzRz8">ZUI 2.5 (twrp)</a>
+  -  Obligatorio tener el movil desrooteado, despues flashear y tras iniciar, flashear ultimo SuperSU: <a href="https://download.chainfire.eu/1016/SuperSU/UPDATE-SuperSU-v2.79-20161211114519.zip">LINK SuperSU</a>
+
+<a href="http://www.htcmania.com/showthread.php?t=1237087">Mokee 60.1</a>
+<a href="http://www.htcmania.com/showthread.php?t=1242049">Gedeon V2.1</a>
+<a href="http://zukfans.eu/community/threads/z2pro-global-rom-v1-20161107.1377/">Global V1</a>
+<a href="http://zukfans.eu/community/threads/z2pro-2-3-044-multilanguage-v1-20161107.1378/">Multilanguage V1</a>
+<a href="https://forum.xda-developers.com/zuk-z2-pro/development/rom-aicp-11-0-mm-6-0-1-unofficials-t3499283">AICP 11.0</a>
+<a href="https://forum.xda-developers.com/zuk-z2-pro/development/z2-pro-miui-8-touch-drivers-support-t3520833">MIUI 8 (U-touch and full drivers support)</a>
+
+<a href="http://zukfans.eu/community/threads/zuk-z2-pro-android-7-dev-edition-updated-link-for-2-5-335-st-version.1801/">Nougat Oficial</a>
+
+<a href="http://www.htcmania.com/showthread.php?t=1243321">Nuevo firmware estable para Z2 Pro -> ZUI 2.3.044 ST</a>
+
+<a href="https://www.androidfilehost.com/?w=files&flid=94052">ROMS Oficiales</a>
+
+<a href="http://www.lineageosrom.com/2017/01/lineage-os-for-zuk-z2-pro.html?m=1">LINEAGE OS </a>  

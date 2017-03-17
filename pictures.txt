@@ -1,7 +1,5 @@
 /help => Para ver todos los comandos.
 
-
-ALBUM DE FOTOGRAFÍAS HECHAS CON ZUK Z2 PRO
-	https://goo.gl/photos/NFXPYs8wybG7pduPA
+<a href="https://goo.gl/photos/NFXPYs8wybG7pduPA">ALBUM DE FOTOGRAFÍAS HECHAS CON ZUK Z2 PRO</a>
 
 Os podés unir y subir vuestras fotos para que toda persona que desee pueda verlas.

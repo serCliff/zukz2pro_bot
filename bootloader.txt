@@ -1,3 +1,3 @@
 /help => Para ver todos los comandos.
 
-Tutorial Mikonos: http://www.htcmania.com/showthread.php?t=1235767
+<a href="http://www.htcmania.com/showthread.php?t=1235767">Tutorial Mikonos</a>

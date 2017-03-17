@@ -1,51 +1,7 @@
+<a href="http://telegra.ph/FAQS-03-17">FAQS ZUK Z2 PRO</a>
+
+
 /help => Para ver todos los comandos.
 
-
-1º TUTORIAL FLASHEAR ROM
-  -  Flash guide ZUK Z2 Pro - （Z2121）(QPST/QFIL): https://forum.xda-developers.com/zuk-z2-pro/how-to/howto-flash-stock-rom-t3435109 
-  -  http://zukfans.eu/community/threads/howto-flash-a-stock-zui-rom-zuk-z2-pro-z2121-only.57/
-
-2º ERROR 7 FLASHEANDO ROMS CON TWRP
-  -  Actualizar twrp /twrp.
-
-3º ARREGLAR CAMARA SI FLASHEASTE LINEAGE OS DE EMMAUS
-  http://zukfans.eu/community/threads/guide-fix-your-camera-after-lineage-os.3670/
-
-4º BRICKS
-  -  Solución brick luz Azul: http://www.htcmania.com/showthread.php?t=1239087
-  -  Solución briqueo total:  http://www.htcmania.com/showthread.php?t=1237518
-
-5º APP RITMO CARDIACO
-  -  https://mega.nz/#!N1YyBZqA
-
-6º MODO INGENIERO
-  -  *#*#1111#*#*
-
-7º ENTRAR EN RECOVERY
-  -  Terminal apagado: Tecla Vol -  y Power > Options Menu. Moverse con vol. +, - y selección con Power
-
-8º MORELOCALE 2
-  -  sin root http://www.htcmania.com/showthread.php?t=757956 
-
-9º CONTACTOS
-  -  Para tener todos nuestros contactos correctamente no hay una fórmula exacta.
-  -  Descargamos google contact sync de aqui: http://www.apkmirror.com/apk/google-inc/google-contacts-sync/google-contacts-sync-6-0-1-release/google-contacts-sync-6-0-1-android-apk-download/
-  -  Una vez instalada en ajustes/cuentas y sincronizacion/otros/google te debería aparecer ahora la opcion de sincronizar los contactos.
-  -  Si no te sale la opción es descargarse también la aplicacion de contactos de google de aqui: http://www.apkmirror.com/apk/google-inc/google-contacts/
-  -  Una vez instalada exportamos desde nuestra cuenta de google (por internet https://support.google.com/mail/answer/1069522?hl=es) los contactos y los importamos en la libreta del teléfono
-  -  Para importarlos Ajustes/contactos/importar.
-  -  Una vez hecho eso, guardar siempre los contactos con la cuenta de google de modo que los tendremos tanto en la cuenta de google como disponibles en el dispositivo.
-
-10º ARREGLAR NOTIFICACIONES ANDROID WEAR, FLOATIFY...
-  -  Lo que hay que hacer es reestablecer el permiso para enviarte notificaciones.
-  -  Para ello vamos a ajustes/notificaciones/Acceso a notificaciones/ y ahi deshabilitamos el servicio que no funciona correctamente.
-  -  Reiniciamos nuestro dispositivo.
-  -  Una vez iniciado abrimos la aplicación, nos volverá a pedir reajustar el acceso a la notificaciones.
-  -  Lo habilitamos de nuevo y eso es todo.
-
-11º FLOATIFY
-  - Con esta aplicación lograremos tener las notificaciones como android stock.
-  -  Respuesta rápida, deslizar hacia abajo para visualizar, a la izquierda para descartar...
-  -  Link gplay https://play.google.com/store/apps/details?id=com.jamworks.floatify
-
-
+SI TIENES ALGUNA SUGERENCIA ESCRÍBEME CON: 
+/sugerencia "Tu sugerencia"

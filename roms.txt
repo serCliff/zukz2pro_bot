@@ -1,19 +1,7 @@
+<a href="http://telegra.ph/ROMS-ZUK-Z2-PRO-03-17">ROMS ZUK Z2 PRO</a>
+
+
 /help => Para ver todos los comandos.
 
-ROMs para Z2 Pro (xda) https://forum.xda-developers.com/zuk-z2-pro/development
-
-Mokee 60.1: http://www.htcmania.com/showthread.php?t=1237087
-Gedeon V2.1: http://www.htcmania.com/showthread.php?t=1242049
-Global V1: http://zukfans.eu/community/threads/z2pro-global-rom-v1-20161107.1377/
-Multilanguage V1: http://zukfans.eu/community/threads/z2pro-2-3-044-multilanguage-v1-20161107.1378/
-AICP 11.0: https://forum.xda-developers.com/zuk-z2-pro/development/rom-aicp-11-0-mm-6-0-1-unofficials-t3499283
-MIUI 8 (U-touch and full drivers support): https://forum.xda-developers.com/zuk-z2-pro/development/z2-pro-miui-8-touch-drivers-support-t3520833
-
-Nougat Oficial: http://zukfans.eu/community/threads/zuk-z2-pro-android-7-dev-edition-updated-link-for-2-5-335-st-version.1801/
-
-Nuevo firmware estable para Z2 Pro -> ZUI 2.3.044 ST: http://www.htcmania.com/showthread.php?t=1243321
-
-ROMS Oficiales https://www.androidfilehost.com/?w=files&flid=94052 
-
-
-LINEAGE OS http://www.lineageosrom.com/2017/01/lineage-os-for-zuk-z2-pro.html?m=1 
+SI TIENES ALGUNA SUGERENCIA ESCRÍBEME CON: 
+/sugerencia "Tu sugerencia"

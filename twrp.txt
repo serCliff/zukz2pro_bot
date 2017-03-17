@@ -1,4 +1,5 @@
 /help => Para ver todos los comandos.
 
-TWRP 3.0.3
-https://mega.nz/#!spJgGI6T!x87tQgLCVYGb18IdaC9KTV4p7vH75KoLBqNQY3nLhrI
+<a href="https://mega.nz/#!spJgGI6T!x87tQgLCVYGb18IdaC9KTV4p7vH75KoLBqNQY3nLhrI">TWRP 3.0.3</a>
+
+<a href="http://n2k1.com/n2k1/ZUK/Z2Pro/TWRP3.1.0.0_ZUK_Z2_pro.rar">TWRP 3.1 multilenguaje by nkl</a>

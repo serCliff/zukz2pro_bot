@@ -1,0 +1,13 @@
+/help => Para ver todos los comandos.
+
+0° NUNCA UTILIZAR MIFLASH
+  -  Cusa brick 99%
+
+
+1º UTILIDADES
+	-   <a href="https://www.androidfilehost.com/?fid=24591000424948456">Flashtool (QPST 2.7.434)</a> 
+	-   <a href="https://www.androidfilehost.com/?fid=24659325368664618">Drivers USB (ZUK)</a> 
+	-   <a href="https://www.androidfilehost.com/?fid=24591020540824824">Drivers Qualcomm(normalmete se instala solo con QPST)</a>
+
+
+2º <a href="https://forum.xda-developers.com/zuk-z2-pro/development/tool-tool-one-driversunlocktwrpfactory-t3432782">TOOL ALL IN ONE (Drivers|Unlock|TWRP|Factory Image|Stock Recovery)</a> 

@@ -58,6 +58,7 @@ path_of_gadgets = pathof_scripts + "gadgets.txt"
 path_of_link = pathof_scripts + "link.txt"
 path_of_tools = pathof_scripts + "tools.txt"
 path_of_twrp = pathof_scripts + "twrp.txt"
+path_of_server = pathof_scripts + "server.txt"
 
 path_of_suggestions = pathof_scripts + "suggestions.txt"
 
@@ -117,7 +118,7 @@ def start(bot, update):
             with open(path_of_help, 'r+') as file:
                 if os.stat(path_of_help).st_size != 0:
                     read_data = file.read()
-                    update.message.reply_text(read_data)
+                    update.message.reply_text(read_data, parse_mode='HTML')
                 else:
                     print('Fichero vacío.')
                     update.message.reply_text('Archivo vacío.')
@@ -186,7 +187,7 @@ def help(bot, update):
             with open(path_of_help, 'r+') as file:
                 if os.stat(path_of_help).st_size != 0:
                     read_data = file.read()
-                    update.message.reply_text(read_data)
+                    update.message.reply_text(read_data, parse_mode='HTML')
                 else:
                     print('Fichero vacío.')
                     update.message.reply_text('Archivo vacío.')
@@ -249,7 +250,7 @@ def roms(bot, update):
             with open(path_of_roms, 'r+') as file:
                 if os.stat(path_of_roms).st_size != 0:
                     read_data = file.read()
-                    update.message.reply_text(read_data)
+                    update.message.reply_text(read_data, parse_mode='HTML')
                 else:
                     print('Fichero vacío.')
                     update.message.reply_text('Archivo vacío.')
@@ -300,7 +301,7 @@ def pictures(bot, update):
             with open(path_of_pictures, 'r+') as file:
                 if os.stat(path_of_pictures).st_size != 0:
                     read_data = file.read()
-                    update.message.reply_text(read_data)
+                    update.message.reply_text(read_data, parse_mode='HTML')
                 else:
                     print('Fichero vacío.')
                     update.message.reply_text('Archivo vacío.')
@@ -358,7 +359,7 @@ def beginers(bot, update):
             with open(path_of_beginers, 'r+') as file:
                 if os.stat(path_of_beginers).st_size != 0:
                     read_data = file.read()
-                    update.message.reply_text(read_data)
+                    update.message.reply_text(read_data, parse_mode='HTML')
                 else:
                     print('Fichero vacío.')
                     update.message.reply_text('Archivo vacío.')
@@ -409,7 +410,7 @@ def bootloader(bot, update):
             with open(path_of_bootloader, 'r+') as file:
                 if os.stat(path_of_bootloader).st_size != 0:
                     read_data = file.read()
-                    update.message.reply_text(read_data)
+                    update.message.reply_text(read_data, parse_mode='HTML')
                 else:
                     print('Fichero vacío.')
                     update.message.reply_text('Archivo vacío.')
@@ -468,7 +469,7 @@ def emmaus(bot, update):
             with open(path_of_emmaus, 'r+') as file:
                 if os.stat(path_of_emmaus).st_size != 0:
                     read_data = file.read()
-                    update.message.reply_text(read_data)
+                    update.message.reply_text(read_data, parse_mode='HTML')
                 else:
                     print('Fichero vacío.')
                     update.message.reply_text('Archivo vacío.')
@@ -529,7 +530,7 @@ def faqs(bot, update):
             with open(path_of_faqs, 'r+') as file:
                 if os.stat(path_of_faqs).st_size != 0:
                     read_data = file.read()
-                    update.message.reply_text(read_data)
+                    update.message.reply_text(read_data, parse_mode='HTML')
                 else:
                     print('Fichero vacío.')
                     update.message.reply_text('Archivo vacío.')
@@ -589,7 +590,7 @@ def gadgets(bot, update):
             with open(path_of_gadgets, 'r+') as file:
                 if os.stat(path_of_gadgets).st_size != 0:
                     read_data = file.read()
-                    update.message.reply_text(read_data)
+                    update.message.reply_text(read_data, parse_mode='HTML')
                 else:
                     print('Fichero vacío.')
                     update.message.reply_text('Archivo vacío.')
@@ -651,7 +652,7 @@ def link(bot, update):
             with open(path_of_link, 'r+') as file:
                 if os.stat(path_of_link).st_size != 0:
                     read_data = file.read()
-                    update.message.reply_text(read_data)
+                    update.message.reply_text(read_data, parse_mode='HTML')
                 else:
                     print('Fichero vacío.')
                     update.message.reply_text('Archivo vacío.')
@@ -711,7 +712,7 @@ def tools(bot, update):
             with open(path_of_tools, 'r+') as file:
                 if os.stat(path_of_tools).st_size != 0:
                     read_data = file.read()
-                    update.message.reply_text(read_data)
+                    update.message.reply_text(read_data, parse_mode='HTML')
                 else:
                     print('Fichero vacío.')
                     update.message.reply_text('Archivo vacío.')
@@ -772,7 +773,7 @@ def twrp(bot, update):
             with open(path_of_twrp, 'r+') as file:
                 if os.stat(path_of_twrp).st_size != 0:
                     read_data = file.read()
-                    update.message.reply_text(read_data)
+                    update.message.reply_text(read_data, parse_mode='HTML')
                 else:
                     print('Fichero vacío.')
                     update.message.reply_text('Archivo vacío.')
@@ -784,8 +785,71 @@ def twrp(bot, update):
         
 
     except:
-        bot.sendMessage(chat_id=id_personal, text='read function went wrong!')
-        print('read function went wrong!')
+        bot.sendMessage(chat_id=id_personal, text='twrp function went wrong!')
+        print('twrp function went wrong!')
+        #sys.exit(0) # quit Python   
+
+
+
+
+def server(bot, update):
+    print('Reading file in server') 
+
+    global path_of_server
+    global id_personal
+
+
+    chat_id=""
+    people=""
+    item=""
+    user_id=""
+    add_id=0
+    add_gr=0
+
+    try:
+        ## GESTIÓN DE USUARIOS ##
+        
+        tipo = str(update.message.chat.type)
+        if tipo == "private":
+            admin_of_users(update)
+        else:
+            try:
+                admins = bot.getChatAdministrators(update.message.chat_id)
+                # print("Admin management correct")
+                admin_of_chats(update,admins)
+            except:
+                print("Not works admins management")
+
+
+    # ##GESTIÓN DE USUARIOS
+    #     user_id = update.message.from_user.id
+    #     chat_id = update.message.chat_id
+    #     people = update.message.from_user
+    #     item="-----------------------------\nCHAT TITLE: \""+str(update.message.chat.title)+"\" chat_id: "+str(chat_id)+"\nFrom User:"+str(people)+"\n\n"
+
+    #     manageUsers(user_id, chat_id, item)
+        item=""
+                        
+        
+        if os.path.isfile(path_of_server):
+            print('Fichero existente!')
+            with open(path_of_server, 'r+') as file:
+                if os.stat(path_of_server).st_size != 0:
+                    read_data = file.read()
+                    update.message.reply_text(read_data, parse_mode='HTML')
+                else:
+                    print('Fichero vacío.')
+                    update.message.reply_text('Archivo vacío.')
+        else:
+            print('Creamos fichero!')
+            update.message.reply_text('Archivo vacío.')  
+            file = open(path_of_server,'a')   # Create a file if
+        file.closed
+        
+
+    except:
+        bot.sendMessage(chat_id=id_personal, text='server function went wrong!')
+        print('server function went wrong!')
         #sys.exit(0) # quit Python   
 
 
@@ -839,7 +903,7 @@ def sugg(bot, update, args):
             update.message.reply_text('Escribe tu sugerencia tras escribir el comando /sugerencia.')
         else:
             for val in args:
-                item+=val+" "
+                item+=val.encode('utf-8')+" "
             item+="\n"
             bot.sendMessage(chat_id=id_personal, text="Alguien ha añadido una sugerencia.")
 
@@ -889,7 +953,7 @@ def admin(bot, update, args):
     try:
 
 
-        if id_personal == str(update.message.chat_id):
+        if id_personal == str(update.message.from_user.id):
             arguments=len(args)
     
             if arguments == 0:
@@ -908,7 +972,7 @@ def admin(bot, update, args):
                 
                 for val in args:
                     if avoiding != 0:
-                        item+=val+" "
+                        item+=val.encode('utf-8')+" "
                     avoiding = 1    
                 item+="\n"
 
@@ -962,7 +1026,7 @@ def admin(bot, update, args):
                         with open(path_of_suggestions, 'r+') as file:
                             if os.stat(path_of_suggestions).st_size != 0:
                                 read_data = file.read()
-                                update.message.reply_text(read_data)
+                                update.message.reply_text(read_data, parse_mode='HTML')
                             else:
                                 print('Fichero vacío.')
                                 update.message.reply_text('Archivo vacío.')
@@ -1322,6 +1386,7 @@ def main():
     dp.add_handler(CommandHandler("link", link))
     dp.add_handler(CommandHandler("tools", tools))
     dp.add_handler(CommandHandler("twrp", twrp))
+    dp.add_handler(CommandHandler("servidor", server))
     dp.add_handler(CommandHandler("admin", admin, pass_args=True))
     dp.add_handler(CommandHandler("sugerencia", sugg, pass_args=True))
     

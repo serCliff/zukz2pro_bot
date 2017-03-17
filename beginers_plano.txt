@@ -1,0 +1,46 @@
+/help => Para ver todos los comandos.
+
+SI QUEREMOS TENER EL ZUK AL DIA Y NO SABEMOS COMO LOS PASOS SON:
+
+0º NUNCA UTILIZAR MIFLASH PARA NADA
+  -  Está comprobado que al final brickeas el teléfono
+
+
+1º DESBLOQUEAR BOOTLOADER:
+  -  Seguir tutorial de Mikonos: <a href="http://www.htcmania.com/showthread.php?t=1235767">TUTORIAL MIKONOS</a>
+  -  Si tienes adb y fastboot instalado en linux los comandos funcionan igual
+  -  SI QUEREMOS RECIBIR OTAS NO ROOTEAR
+
+2º LIBRARNOS DE NUESTRA ROM FALSA O ANTIGUA FLASHEANDO CON QFILL:
+  -  Seguimos este tutorial de xda: <a href="https://forum.xda-developers.com/zuk-z2-pro/how-to/howto-flash-stock-rom-t3435109">LINK</a>
+  -  Algunas personas tienen un problema (Sahara), en opciones de desarrollador activar la casilla de usb 2.0 y funcionara correctamente
+
+3º ACTUALIZAR HASTA LLEGAR A LA ÚLTIMA VERSIÓN
+  -  Para ello iniciamos el dispositivo, cambiamos el idioma (Tutorial: <a href="https://goo.gl/photos/jiDUWp9Y1A94xaMFA">LINK</a>)
+  -  Vamos al updater, seguramente tengamos su notificacion y lo actualizamos.
+
+4º PARA ROOTEAR EL ZUK
+  -  Descargamos la última versión de <a href="https://download.chainfire.eu/1016/SuperSU/UPDATE-SuperSU-v2.79-20161211114519.zip">SuperSU</a>
+  -  Iniciar Recovery (Si no sabes como mira en /faqs) y flashear zip descargado
+
+5º GOOGLE PLAY Y SERVICIOS DE GOOGLE
+  -  Descargar servicios de google y google play store desde App Centre
+
+6º CONTACTOS
+  -  Para tener todos nuestros contactos correctamente.
+  -  Descargamos <a href="http://www.apkmirror.com/apk/google-inc/google-contacts-sync/google-contacts-sync-6-0-1-release/google-contacts-sync-6-0-1-android-apk-download/">Google Contact Sync</a>
+  -  Una vez instalada en ajustes > cuentas y sincronizacion > otros > google te debería aparecer ahora la opcion de sincronizar los contactos.
+
+7º RECIBIR CORRECTAMENTE NOTIFICACIONES ANDROID WEAR, FLOATIFY...
+  -  Si utilizas algún servicio de notificaciones puede que pierdas la configuración al principio.
+  -  Para arreglar esto
+  -  Lo que hay que hacer es reestablecer el permiso para enviarte notificaciones.
+  -  Para ello vamos a ajustes/notificaciones/Acceso a notificaciones/ y ahi deshabilitamos el servicio que no funciona correctamente.
+  -  Reiniciamos nuestro dispositivo.
+  -  Una vez iniciado abrimos la aplicación, nos volverá a pedir reajustar el acceso a la notificaciones.
+  -  Lo habilitamos de nuevo y eso es todo.
+
+
+SI TENEIS OTRAS DUDAS PASAROS POR /faqs, A LO MEJOR TU DUDA YA ESTA RESUELTA
+
+SI NO ESCRIBEME UNA SUGERENCIA CON /sugerencia "Tu sugerencia"

@@ -1,5 +1,5 @@
 -----------------------------
-CHAT TITLE: "" chat_id: 12109646
-From User:{'username': u'serCliff', 'first_name': u'Sergio', 'last_name': '', 'type': '', 'id': 12109646}
+CHAT TITLE: "Lenovo ZUK Z2 Pro" chat_id: -1001057339174
+From User:{'username': u'alesevilla92', 'first_name': u'Alejandro', 'last_name': u'Larios', 'type': '', 'id': 4206672}
 
-Sugerencia: add https://goo.gl/photos/NFXPYs8wybG7pduPA 
+Sugerencia: un botón de "Ver más" para que no haya un tocho cada vez que alguien ve algo, pls 

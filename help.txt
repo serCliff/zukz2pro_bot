@@ -2,6 +2,8 @@ COMANDOS:
 
 /inicio => Entra aqui si es tu primer día con el zuk
 
+/servidor - Acceso a un servidor privado con todo lo descargable para el zuk
+
 /fotos => Para mostrar el album de fotos hechas con el zuk.
 
 /roms => Accede a todas las roms actuales.

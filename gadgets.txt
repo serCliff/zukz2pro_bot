@@ -1,12 +1,7 @@
+<a href="http://telegra.ph/GADGETS-ZUK-Z2-PRO-03-17">GADGETS ZUK Z2 PRO</a>
+
+
 /help => Para ver todos los comandos.
 
-1º Cargador qc3.0 Aukey (Amazon) 8-10€: https://www.amazon.es/Charge-Cargador-Qualcomm-Certificado-iPhone/dp/B01A0QO98W/ref=sr_1_3?ie=UTF8&qid=1484868965&sr=8-3&keywords=cargador+aukey
-
-2º Cables qc3.0 Type-C (Amazon) 7-8€: https://www.amazon.es/Kinps-High-speed-Standard-MacBook-ChromeBook-Supported/dp/B019IB62SU/ref=sr_1_2?ie=UTF8&qid=1484869058&sr=8-2&keywords=type+c+3.1 
-
-3º CARCASAS:
-  -  Carcasa antideslizante "el anillo se quita" (Aliexpress) 5,73€: https://www.aliexpress.com/item/Imak-For-Lenovo-zuk-z2-pro-5-2-Contracted-Frosted-Case-Hight-Quality-Quicksand-Back-Cover/32699289340.html
-  -  Carcasa antideslizante gel http://s.aliexpress.com/AvqUnqM3
-  -  Transparente TPU ULTRADELGADA http://s.aliexpress.com/YvqimmIv
-
- 4º Vinilo Carbono Parte Trasera (Aliexpress) 1,42-2,85€: http://s.aliexpress.com/AVVBZ7Jb
+SI TIENES ALGUNA SUGERENCIA ESCRÍBEME CON: 
+/sugerencia "Tu sugerencia"
