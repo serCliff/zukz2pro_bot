@@ -1,4 +1,8 @@
-COMANDOS:
+
+<a href="http://telegra.ph/RECOMENDACI%C3%93N-03-17">************* LEER ****************
+ RECOMENDACIONES DE USO DEL BOT
+***********************************</a>
+
 
 /inicio => Entra aqui si es tu primer día con el zuk
 

@@ -1,0 +1,10 @@
+
+/flash => Todo sobre contenido flasheable.
+
+/servidor => Acceso a un servidor privado con todo lo descargable para el zuk.
+
+/galeria => Para mostrar el album de fotos hechas con el zuk.
+
+/market => Consumibles y ofertas para el zuk.
+
+/sugerencia Tu sugerencia => Si deseas añadir o cambiar algo este es el método<a href="http://telegra.ph/FAQS-03-17">.</a>
