@@ -1,0 +1,5 @@
+-----------------------------
+CHAT TITLE: "" chat_id: 159214335
+From User:{'username': u'JoelsonFernandes', 'first_name': u'Joelson', 'last_name': '', 'type': '', 'id': 159214335}
+
+Sugerencia: ¡Hola! En el bot hay el enlace del mega para bajar la app de ritmo cardíaco, pero no hay la llave. https://mega.nz/#!N1YyBZqA 

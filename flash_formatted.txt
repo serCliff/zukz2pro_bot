@@ -1,6 +1,6 @@
-PRIMEROS PASOS<a>http://telegra.ph/PRIMEROS-PASOS-CON-EL-ZUK-03-17
+PRIMEROS PASOS (Desde rom falsa)<a>http://telegra.ph/PRIMEROS-PASOS-CON-EL-ZUK-03-17
 ROMS<a>http://telegra.ph/ROMS-ZUK-Z2-PRO-03-17
-DESBLOQUEAR BOOTLADER<a>http://www.htcmania.com/showthread.php?t=1235767
+DESBLOQUEAR BOOTLOADER<a>http://www.htcmania.com/showthread.php?t=1235767
 HERRAMIENTAS FLASH<a>http://telegra.ph/TOOLS-ZUK-Z2-PRO-03-17
-TWRP 3.0.3<a>https://mega.nz/#!spJgGI6T!x87tQgLCVYGb18IdaC9KTV4p7vH75KoLBqNQY3nLhrI
 TWRP 3.1 multilenguaje by nkl<a>http://n2k1.com/n2k1/ZUK/Z2Pro/TWRP3.1.0.0_ZUK_Z2_pro.rar
+Super SU 2.79<a>http://dl.josealejandro.es/?dir=Zuk_Z2_Pro/Root%20-%20SuperSu

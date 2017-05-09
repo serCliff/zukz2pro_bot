@@ -1,4 +1,4 @@
-    #!/usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
@@ -49,6 +49,9 @@ path_of_help_formatted = pathof_scripts + "help_formatted.txt"
 
 path_of_flash = pathof_scripts + "flash_new.txt"
 path_of_flash_formatted = pathof_scripts + "flash_formatted.txt"
+
+path_of_track = pathof_scripts + "track_new.txt"
+path_of_track_formatted = pathof_scripts + "track_formatted.txt"
 
 path_of_server = pathof_scripts + "server_new.txt"
 path_of_server_formatted = pathof_scripts + "server_formatted.txt"
@@ -177,7 +180,10 @@ def start(bot, update):
         
 
     except:
-        bot.sendMessage(chat_id=id_personal, text='start function went wrong!')
+        user_id = update.message.from_user.id
+        username = str(update.message.from_user.username)
+        FAIL='start function went wrong! Para usuario: '+user_id+" con id @"+username
+        bot.sendMessage(chat_id=id_personal, text=FAIL)
         print('start function went wrong!')
         #sys.exit(0) # quit Python   
 
@@ -267,8 +273,13 @@ def help(bot, update):
         
 
     except:
-        bot.sendMessage(chat_id=id_personal, text='help function went wrong!')
-        print('help function went wrong!')
+        user_id = update.message.from_user.id
+        username = str(update.message.from_user.username)
+        FAIL='help function went wrong! Para usuario: '+user_id+" con id @"+username
+        bot.sendMessage(chat_id=id_personal, text=FAIL)
+
+        # bot.sendMessage(chat_id=id_personal, text='help function went wrong!')
+        # print('help function went wrong!')
         #sys.exit(0) # quit Python   
 
 
@@ -357,8 +368,108 @@ def flasheable(bot, update):
         
 
     except:
-        bot.sendMessage(chat_id=id_personal, text='flasheable function went wrong!')
-        print('flasheable function went wrong!')
+        user_id = update.message.from_user.id
+        username = str(update.message.from_user.username)
+        FAIL='flasheable function went wrong! Para usuario: '+user_id+" con id @"+username
+        bot.sendMessage(chat_id=id_personal, text=FAIL)
+
+        # bot.sendMessage(chat_id=id_personal, text='flasheable function went wrong!')
+        # print('flasheable function went wrong!')
+        #sys.exit(0) # quit Python   
+
+
+
+def tracking(bot, update):
+    print('Reading file in twrp') 
+
+    # global path_of_help
+    # global path_of_help_formatted
+    global path_of_track
+    global path_of_track_formated
+    global id_personal
+
+    
+    chat_id=""
+    people=""
+    item=""
+    user_id=""
+    add_id=0
+    add_gr=0
+
+    try:
+        ## GESTIÓN DE USUARIOS ##
+        tipo = str(update.message.chat.type)
+        if tipo == "private":
+            admin_of_users(update)
+        else:
+            try:
+                admins = bot.getChatAdministrators(update.message.chat_id)
+                # print("Admin management correct")
+                admin_of_chats(update,admins)
+            except:
+                print("Not works admins management")
+
+        
+
+        
+        # SACAMOS LAS ENTRADAS FORMATEADAS
+        item=""
+        if os.path.isfile(path_of_track_formatted):
+            print('Fichero existente!')
+            with open(path_of_track_formatted, 'r+') as file:
+                if os.stat(path_of_track_formatted).st_size != 0:
+                    read_data = file.readlines()
+                else:
+                    print('Fichero vacío.')
+                    update.message.reply_text('Archivo vacío.')
+        else:
+            print('Creamos fichero!')
+            update.message.reply_text('Archivo vacío.')  
+            file = open(path_of_track_formatted,'a')   # Create a file if
+        file.closed
+
+
+        elements = []
+        URLS = []
+        reg_handler = []
+
+        for line in read_data:
+            elements.append(line.rstrip('\n').split("<a>")[0])
+            URLS.append(line.rstrip('\n').split("<a>")[1])
+
+        for x in range(len(elements)):
+            reg_handler.append(InlineKeyboardButton(elements[x],URLS[x]))
+
+        myList=[[reg_handler[i] for j in range(1)] for i in range(len(reg_handler))]
+        reply_markup = InlineKeyboardMarkup(myList)
+
+
+
+        # TEXTO PARA EL MENSAJE        
+        if os.path.isfile(path_of_track):
+            print('Fichero existente!')
+            with open(path_of_track, 'r+') as file:
+                if os.stat(path_of_track).st_size != 0:
+                    read_data = file.read()
+                    update.message.reply_text(read_data, parse_mode='HTML', reply_markup=reply_markup)
+                else:
+                    print('Fichero vacío.')
+                    update.message.reply_text('Archivo vacío.')
+        else:
+            print('Creamos fichero!')
+            update.message.reply_text('Archivo vacío.')  
+            file = open(path_of_track,'a')   # Create a file if
+        file.closed
+        
+
+    except:
+        user_id = update.message.from_user.id
+        username = str(update.message.from_user.username)
+        FAIL='flasheable function went wrong! Para usuario: '+user_id+" con id @"+username
+        bot.sendMessage(chat_id=id_personal, text=FAIL)
+
+        # bot.sendMessage(chat_id=id_personal, text='flasheable function went wrong!')
+        # print('flasheable function went wrong!')
         #sys.exit(0) # quit Python   
 
 
@@ -448,8 +559,13 @@ def server(bot, update):
         
 
     except:
-        bot.sendMessage(chat_id=id_personal, text='server function went wrong!')
-        print('server function went wrong!')
+        user_id = update.message.from_user.id
+        username = str(update.message.from_user.username)
+        FAIL='server function went wrong! Para usuario: '+user_id+" con id @"+username
+        bot.sendMessage(chat_id=id_personal, text=FAIL)
+
+        # bot.sendMessage(chat_id=id_personal, text='server function went wrong!')
+        # print('server function went wrong!')
         #sys.exit(0) # quit Python   
 
 
@@ -540,8 +656,13 @@ def gallery(bot, update):
         
 
     except:
-        bot.sendMessage(chat_id=id_personal, text='gallery function went wrong!')
-        print('gallery function went wrong!')
+        user_id = update.message.from_user.id
+        username = str(update.message.from_user.username)
+        FAIL='gallery function went wrong! Para usuario: '+user_id+" con id @"+username
+        bot.sendMessage(chat_id=id_personal, text=FAIL)
+
+        # bot.sendMessage(chat_id=id_personal, text='gallery function went wrong!')
+        # print('gallery function went wrong!')
         #sys.exit(0) # quit Python   
 
 
@@ -630,8 +751,13 @@ def market(bot, update):
         
 
     except:
-        bot.sendMessage(chat_id=id_personal, text='market function went wrong!')
-        print('market function went wrong!')
+        user_id = update.message.from_user.id
+        username = str(update.message.from_user.username)
+        FAIL='market function went wrong! Para usuario: '+user_id+" con id @"+username
+        bot.sendMessage(chat_id=id_personal, text=FAIL)
+
+        # bot.sendMessage(chat_id=id_personal, text='market function went wrong!')
+        # print('market function went wrong!')
         #sys.exit(0) # quit Python   
 
 
@@ -721,8 +847,13 @@ def bot(bot, update):
         
 
     except:
-        bot.sendMessage(chat_id=id_personal, text='bot function went wrong!')
-        print('bot function went wrong!')
+        user_id = update.message.from_user.id
+        username = str(update.message.from_user.username)
+        FAIL='bot function went wrong! Para usuario: '+user_id+" con id @"+username
+        bot.sendMessage(chat_id=id_personal, text=FAIL)
+        
+        # bot.sendMessage(chat_id=id_personal, text='bot function went wrong!')
+        # print('bot function went wrong!')
         #sys.exit(0) # quit Python   
 
 
@@ -1083,8 +1214,10 @@ def admin_of_users(update):
 
         user_id = update.message.from_user.id
         username = str(update.message.from_user.username)
-        firstname = str(update.message.from_user.first_name).encode('utf-8')
-        lastname = str(update.message.from_user.last_name).encode('utf-8')
+        firstname = ""
+        lastname = ""
+        # firstname = str(update.message.from_user.first_name).encode('utf-8')
+        # lastname = str(update.message.from_user.last_name).encode('utf-8')
         tipo = str(update.message.from_user.type)
 
         try:
@@ -1127,8 +1260,10 @@ def admin_of_chats(update,administrators):
 
         user_id = update.message.from_user.id
         username = str(update.message.from_user.username)
-        firstname = str(update.message.from_user.first_name).encode('utf-8')
-        lastname = str(update.message.from_user.last_name).encode('utf-8')
+        firstname = ""
+        lastname = ""
+        # firstname = str(update.message.from_user.first_name).encode('utf-8')
+        # lastname = str(update.message.from_user.last_name).encode('utf-8')
         tipo = str(update.message.from_user.type)
 
         try:
@@ -1306,8 +1441,10 @@ def main():
 
     # nuevos comandos
     dp.add_handler(CommandHandler("help", help))
+    dp.add_handler(CommandHandler("ayuda", help))
     dp.add_handler(CommandHandler("servidor", server))
     dp.add_handler(CommandHandler("flash", flasheable))
+    dp.add_handler(CommandHandler("track", tracking))
     dp.add_handler(CommandHandler("galeria", gallery))
     dp.add_handler(CommandHandler("market", market))
     dp.add_handler(CommandHandler("bot", bot))

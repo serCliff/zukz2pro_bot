@@ -1,10 +1,11 @@
-
+COMANDOS:
 /flash => Todo sobre contenido flasheable.
-
 /servidor => Acceso a un servidor privado con todo lo descargable para el zuk.
-
 /galeria => Para mostrar el album de fotos hechas con el zuk.
-
 /market => Consumibles y ofertas para el zuk.
+/sugerencia Tu sugerencia => Si deseas añadir o cambiar algo este es el método.
 
-/sugerencia Tu sugerencia => Si deseas añadir o cambiar algo este es el método<a href="http://telegra.ph/FAQS-03-17">.</a>
+/track => Haz un seguimiento de tus pedidos desde china.
+
+FAQS
+Serie de preguntas ya resueltas<a href="http://telegra.ph/FAQS-03-17">.</a>
